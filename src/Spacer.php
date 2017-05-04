@@ -44,13 +44,13 @@ trait Spacer
             collect($column)->each(function($name) use ($type) {
                 if ($type == 'short') {
                     if (isset($this->$name)) {
-                        $this->$name = $this->parseString($this->name);
+                        $this->$name = $this->parseString($this->$name);
                     }
                 }
 
                 if ($type == 'long') {
                     if (isset($this->$name)) {
-                        $this->$name = $this->parseText($this->name);
+                        $this->$name = $this->parseText($this->$name);
                     }
                 }
             });
