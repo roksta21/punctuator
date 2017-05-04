@@ -1,4 +1,4 @@
-# Punctuator
+# Punctuator for Laravel
 A simple punctuator for texts. Adds spaces after punctuation marks and formats texts.
 
 # How It Works
